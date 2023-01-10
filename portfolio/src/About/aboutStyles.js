@@ -13,16 +13,28 @@ export const AboutStyle = styled.div`
   a {
     color: #64ffda;
   }
-  .about {
+  .about,
+  ul {
     color: #ccd6f6;
     padding-bottom: 3rem;
   }
-    .aboutWrapper {
-
-    }
-  /* .section-title {
+  .aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    color: #8892b0;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    max-width: 700px;
+    margin-top: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    list-style: inside;
+  }
+  .section-title {
     margin: auto 9rem;
   }
+  /*
   .section-title::after {
     content: "";
     display: block;
