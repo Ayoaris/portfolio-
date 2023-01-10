@@ -10,6 +10,10 @@ export const AboutStyle = styled.div`
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
   }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
   a {
     color: #64ffda;
   }
@@ -33,6 +37,19 @@ export const AboutStyle = styled.div`
   }
   .section-title {
     margin: auto 9rem;
+  }
+  .photo img {
+    margin-right: 5rem;
+    border-radius: 15px;
+    border: 3px solid #64ffda;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 20, 0.35) 0px 5px 15px;
+  }
+  img:hover {
+    transform: scale(1.1);
+    
+    box-shadow: rgba(0, 0, 20, 0.35) 0px 5px 15px;
   }
   /*
   .section-title::after {
