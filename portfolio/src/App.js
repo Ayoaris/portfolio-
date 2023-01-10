@@ -1,10 +1,13 @@
-import Portfolio from './portfolio/portfolio';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Info from "./Infomation/Index";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <>
-      <Portfolio />
+      <Navbar />
+      <Info />
     </>
   );
 }

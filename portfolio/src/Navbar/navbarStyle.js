@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const NavbarStyle = styled.div`
-*{
+  * {
     margin: 0;
     padding: 0;
     position: relative;
-
-}
+  }
   .nav-main {
     background-color: #041b15;
     height: 70px;
@@ -33,7 +32,6 @@ export const NavbarStyle = styled.div`
     width: 100px;
     top: 0px;
     left: 3px;
-    
   }
   .menu {
     display: flex;
@@ -65,7 +63,8 @@ export const NavbarStyle = styled.div`
       padding: 0.75rem 1rem;
       margin-right: 6rem;
       transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-      font-family: "sfMono", "SpaceMono", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-family: "sfMono", "SpaceMono", "Lucida Sans", "Lucida Sans Regular",
+        "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       align-items: center;
       border-radius: 0.2rem;
     }
