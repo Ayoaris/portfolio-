@@ -6,6 +6,7 @@ function About() {
   return (
     <div>
       <AboutStyle>
+        {/* About Me */}
         <div className="section-title">
           <h2 className="aboutList">
             <span>01.</span>About Me
@@ -62,9 +63,10 @@ function About() {
             </div>
           </div>
         </div>
+        {/* Work Experience */}
         <div className="section-title">
           <h2 className="aboutList">
-            <span>01.</span>Where I've Worked
+            <span>02.</span>Where I've Worked
           </h2>
 
           <div class="experience-wrapper">
@@ -166,6 +168,26 @@ function About() {
                   of existing system for clients.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+        {/* Things I've Built */}
+        <div className="section-title">
+          <h2 className="aboutList">
+            <span>03.</span>Things I've Built
+          </h2>
+          <div className="Projects">
+            <div className="Project_box">
+              <h1>1</h1>
+            </div>
+            <div className="Project_box">
+              <h1>2</h1>
+            </div>
+            <div className="Project_box">
+              <h1>3</h1>
+            </div>
+            <div className="Project_box">
+              <h1>4</h1>
             </div>
           </div>
         </div>
