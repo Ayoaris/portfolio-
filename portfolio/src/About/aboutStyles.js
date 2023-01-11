@@ -33,7 +33,7 @@ export const AboutStyle = styled.div`
   .about {
     color: #ccd6f6;
     padding-bottom: 3rem;
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
   .list li {
     padding-bottom: 0.5rem;
@@ -167,6 +167,28 @@ export const AboutStyle = styled.div`
     position: absolute;
     left: 0px;
     top: 0px;
+    color: #64ffda;
+  }
+  .Projects {
+    display: flex;
+    gap: 3rem;
+    /* justify-content: space-between; */
+  }
+  .eachwork-image img {
+    /* height: 50%;
+    width: 70%; */
+    border: 3px #112240 solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity: 0.7;
+    background-color: #112240;
+  }
+  .eachwork-brief {
+    width: 450px;
+    height: 90px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #112240;
     color: #64ffda;
   }
 `;

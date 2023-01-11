@@ -177,17 +177,32 @@ function About() {
             <span>03.</span>Things I've Built
           </h2>
           <div className="Projects">
-            <div className="Project_box">
-              <h1>1</h1>
+            <div className="each-work">
+              <div class="eachwork-image">
+                <img
+                  src={photo}
+                  alt="feedback"
+                  width={"450px"}
+                  height={"350px"}
+                />
+              </div>
+              
+              <div class="eachwork-brief">
+                <h3>Feedbackapp</h3>
+              </div>
             </div>
-            <div className="Project_box">
-              <h1>2</h1>
-            </div>
-            <div className="Project_box">
-              <h1>3</h1>
-            </div>
-            <div className="Project_box">
-              <h1>4</h1>
+            <div className="each-work">
+              <div class="eachwork-image">
+                <img
+                  src={photo}
+                  alt="feedback"
+                  width={"450px"}
+                  height={"350px"}
+                />
+              </div>
+              <div class="eachwork-brief">
+                <h3>Feedbackapp</h3>
+              </div>
             </div>
           </div>
         </div>
