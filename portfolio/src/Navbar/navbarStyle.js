@@ -5,6 +5,7 @@ export const NavbarStyle = styled.div`
     margin: 0;
     padding: 0;
     position: relative;
+    opacity: 0.9;
   }
   .nav-main {
     background-color: #041b15;
