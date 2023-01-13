@@ -23,7 +23,10 @@ function InTouch() {
           <button className="Btn" type="submit">
             Send Message
           </button>
-        </form>
+              </form>
+              <div>
+                  <p className="footer">Design & Built by Samuel Ayodeji Soyebo</p>
+              </div>
       </div>
     </GetintouchContainer>
   );
