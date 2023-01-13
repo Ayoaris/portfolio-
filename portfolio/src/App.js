@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./About/Index";
 import Info from "./Infomation/Index";
 import Navbar from "./Navbar";
+import InTouch from "./Getintouch";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Info />
       <About />
+      <InTouch />
     </>
   );
 }
