@@ -60,7 +60,7 @@ export const GetintouchContainer = styled.div`
     font-size: 0.9rem;
     height: 19vh;
   }
-    .Btn {
+  .Btn {
     background-color: #041b15;
     border: 1px solid #64ffda;
     border-radius: 0.25rem;
@@ -70,6 +70,5 @@ export const GetintouchContainer = styled.div`
     font-weight: 600;
     cursor: pointer;
     margin: 1rem 0rem;
-    }
-
+  }
 `;
