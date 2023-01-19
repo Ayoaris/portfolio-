@@ -4,6 +4,7 @@ import About from "./About/Index";
 import Info from "./Infomation/Index";
 import Navbar from "./Navbar";
 import InTouch from "./Getintouch";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Info />
       <About />
       <InTouch />
+      <Sidebar/>
     </>
   );
 }

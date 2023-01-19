@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const AboutStyle = styled.div`
   * {
-    background-color: #041b15;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +10,7 @@ export const AboutStyle = styled.div`
     scroll-behavior: smooth;
   }
   .container {
+    background-color: #041b15;
     display: flex;
     justify-content: space-between;
   }
@@ -18,6 +18,7 @@ export const AboutStyle = styled.div`
     color: #64ffda;
   }
   .aboutList {
+    background-color: #041b15;
     color: #ccd6f6;
     padding-bottom: 3rem;
   }
@@ -71,6 +72,7 @@ export const AboutStyle = styled.div`
     color: #64ffda;
   } */
   .section-title {
+    background-color: #041b15;
     margin: auto 9rem;
   }
   .photo img {
@@ -172,6 +174,7 @@ export const AboutStyle = styled.div`
   .Projects {
     display: flex;
     gap: 3rem;
+    padding-bottom: 2.4rem;
     /* justify-content: space-between; */
   }
   .eachwork-image img {
@@ -181,7 +184,6 @@ export const AboutStyle = styled.div`
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     opacity: 0.7;
-    background-color: #112240;
   }
   .eachwork-brief {
     width: 450px;
@@ -189,6 +191,15 @@ export const AboutStyle = styled.div`
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #112240;
+    padding: 1rem;
+  }
+  .Pro-name {
+    color: #8892b0;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: #112240;
+  }
+  .Pro-name:hover {
     color: #64ffda;
   }
 `;

@@ -1,6 +1,8 @@
 import React from "react";
 import { AboutStyle } from "./aboutStyles";
 import photo from "../assets/photo/image.jpeg";
+import { FiGithub } from "react-icons/fi";
+import { FiExternalLink } from "react-icons/fi";
 
 function About() {
   return (
@@ -170,38 +172,80 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
-        {/* Things I've Built */}
-        <div className="section-title">
-          <h2 className="aboutList">
-            <span>03.</span>Things I've Built
-          </h2>
-          <div className="Projects">
-            <div className="each-work">
-              <div class="eachwork-image">
-                <img
-                  src={photo}
-                  alt="feedback"
-                  width={"450px"}
-                  height={"350px"}
-                />
+          {/* Things I've Built */}
+          <div className="section-title">
+            <h2 className="aboutList">
+              <span>03.</span>Things I've Built
+            </h2>
+
+            <div className="Projects">
+              <div className="each-work">
+                <div class="eachwork-image">
+                  <img
+                    src={photo}
+                    alt="feedback"
+                    width={"450px"}
+                    height={"350px"}
+                  />
+                </div>
+
+                <div class="eachwork-brief">
+                  <h3 className="Pro-name">
+                    Project Name <FiGithub /> <FiExternalLink />
+                  </h3>
+                </div>
               </div>
-              
-              <div class="eachwork-brief">
-                <h3>Feedbackapp</h3>
+              <div className="each-work">
+                <div class="eachwork-image">
+                  <img
+                    src={photo}
+                    alt="feedback"
+                    width={"450px"}
+                    height={"350px"}
+                  />
+                </div>
+                <div class="eachwork-brief">
+                  <h3 className="Pro-name">
+                    Project Name <FiGithub /> <FiExternalLink />
+                  </h3>
+                </div>
               </div>
             </div>
-            <div className="each-work">
-              <div class="eachwork-image">
-                <img
-                  src={photo}
-                  alt="feedback"
-                  width={"450px"}
-                  height={"350px"}
-                />
+            <div className="Projects">
+              <div className="each-work">
+                <div class="eachwork-image">
+                  <img
+                    src={photo}
+                    alt="feedback"
+                    width={"450px"}
+                    height={"350px"}
+                  />
+                </div>
+
+                <div class="eachwork-brief">
+                  <h3 className="Pro-name">
+                    Project Name <FiGithub /> <FiExternalLink />
+                  </h3>
+                </div>
               </div>
-              <div class="eachwork-brief">
-                <h3>Feedbackapp</h3>
+              <div className="each-work">
+                <div class="eachwork-image">
+                  <img
+                    src={photo}
+                    alt="feedback"
+                    width={"450px"}
+                    height={"350px"}
+                  />
+                  <div class="eachwork-brief">
+                    <h3 className="Pro-name">
+                      Project Name <FiGithub />
+                      <FiExternalLink />
+                    </h3>
+                    <p className="Pro-icons">
+
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
